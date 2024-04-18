@@ -1,0 +1,16 @@
+{
+  "name": "module-anonymiser",
+  "version": "1.0.0",
+  "description": "A project setup to annonymise data",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nuhu Ibrahim",
+  "license": "ISC",
+  "dependencies": {
+    "anonymize-nlp": "^1.0.6",
+    "exceljs": "^4.4.0",
+    "xlsx": "^0.18.5"
+  }
+}
