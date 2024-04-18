@@ -16,7 +16,7 @@ try {
 	const inputWorkbook = xlsx.readFile(inputFile);
 	let workbookSheet = inputWorkbook.SheetNames;
 	var workbookRowsData = xlsx.utils.sheet_to_json(
-		inputWorkbook.Sheets[workbookSheet[0]]
+		inputWorkbook.Sheets[workbookSheet[0]], {header: 1}
 	);
 } catch (err) {
 	console.error("Something went wrong while reading input file. Error message: " + err.message);
